@@ -137,3 +137,24 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Custom additions for your DApp
+# --------------------------------
+# VSCode workspace settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Vite dev cache
+.vite/
+
+# Tailwind JIT cache (if any)
+.tailwind/
+
+# Build outputs (if you're using build step)
+dist/
+build/
+
+# Phantom wallet adapter logs (sometimes generated in dev)
+wallet-adapter.log
